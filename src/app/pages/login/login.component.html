@@ -1,0 +1,20 @@
+<div class="auth-body" [@fadeIn]="'fadeIn'" >
+    <div class="rs-lg"></div>
+    <div class="form-wrapper col-lg-4 col-md-4 col-sm-12 col-xs-12 offset-lg-4 offset-md-4">
+        <form class="login-form" [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+            <span class="form-title">Sign In</span>
+            <div class="form-group">
+                <label class="form-label">Enter you username</label>
+                <input class="form-control" formControlName="username" type="text">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Enter you password</label>
+                <input class="form-control" type="password" formControlName="password">
+            </div>
+            <div class="class-form">
+                <button class="btn btn-primary">submit</button>
+            </div>
+            <span class="warning" *ngIf="invalidInput">Please enter valid username and password</span>
+        </form>
+    </div>
+</div>

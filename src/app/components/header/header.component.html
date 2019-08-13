@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigation">
+    <a class="icon">
+        <img src="http://rentbetter.alex/wp-content/themes/rentbetter/images/logo-white-large.png" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item" *ngFor="let element of navBarElements">
+                <a (click)="buttonClicked($event, element.id)" class=" nav-link funcBtn">{{element.name}}</a>
+            </li>
+        </ul>
+        <a routerLink="/dashboard">enter the dashboard</a>
+        <a routerLink="/">enter the auth</a>
+    </div>
+</nav>

@@ -1,0 +1,105 @@
+.dashboard-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table {
+    text-align: center;
+}
+
+.loading{
+    height: 550px;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+.table-header {
+    padding: 5px;
+}
+
+.table-row-body {
+    /* padding: 13px; */
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.text-processed {
+    padding:3px;
+    background-color: #E05606;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+.text-success {
+    padding: 10px;
+    background-color: #83B24C;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.text-failure {
+    padding: 10px;
+    background-color: #CD393B;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+.successRequest{
+    background-color: #83B24C;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.processRequest{
+    background-color: #E05606;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.failureRequest{
+    background-color: #CD393B;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.allRequest{
+    background-color: #2D3192;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+.mode-btn{
+    cursor: pointer;
+}
+
+.errorMsg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    display: inline-block;
+    padding: 1px;
+    font-weight: bold;
+}
+
+.statusMsg{
+    display: inline-block;
+}
+
+.btn-outline-info{
+    width: 100%;
+}

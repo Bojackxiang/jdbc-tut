@@ -1,0 +1,18 @@
+
+
+.page-footer{
+    width: 100%;
+    background-color: #1E2935;
+    padding-bottom: 12px;
+}
+
+.footer-content{
+    margin-top: 15px;
+}
+
+.footer-content span{
+    display: block;
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}

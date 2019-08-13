@@ -1,0 +1,32 @@
+.auth-body{
+    background-image: url('http://wallpapersdsc.net/wp-content/uploads/2017/04/Sydney-Background-.jpg');
+    
+    height: 100vh;
+    background-position: center;
+    
+    
+}
+.form-wrapper{
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.login-form{
+    height: 350px;
+}
+
+.form-title{
+    color: white;
+    font-size: 30px;
+}
+
+.form-label{
+    color: white;
+}
+
+.warning{
+    color: red !important;
+    font-size: 12px;
+}

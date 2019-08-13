@@ -1,0 +1,30 @@
+nav{
+    /* position: absolute; */
+    width: 100%;
+    top:0;
+    position: fixed;
+    padding: 5px;
+    z-index: 100;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+#navigation {
+    background-color: #1E2935 !important;
+}
+
+#navbarNavDropdown {
+    margin-left: 15px;
+}
+
+.nav-link {
+    font-size: 16px !important;
+    color: lightgrey !important;
+}
+
+.nav-item :hover {
+    cursor: pointer !important;
+    color: white !important;
+}

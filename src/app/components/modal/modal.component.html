@@ -1,0 +1,17 @@
+<!-- fadeInDown -->
+<div class="modal-wrapper animated" [ngClass]="modalDisplay == true ? 'fadeInDown' : ''">
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 cold-sm-12">
+                <div class="modal-content">
+                    {{content}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 cold-sm-12 text-center">
+                <div class="btn btn-danger" (click)="closeModalClicked(true)">close</div>
+            </div>
+        </div>
+    </div>
+</div>
